@@ -694,23 +694,23 @@
                             <action selector="changeEmpty:" target="39E-Lr-kbK" id="GZL-dX-og2"/>
                         </connections>
                     </button>
-                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="YEg-7M-0I5">
-                        <rect key="frame" x="205" y="25" width="180" height="39"/>
-                        <animations/>
-                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Label" id="Lts-fI-0nx">
-                            <font key="font" metaFont="system"/>
-                            <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
-                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
-                        </textFieldCell>
-                    </textField>
                     <slider horizontalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cSh-vp-vVn">
-                        <rect key="frame" x="226" y="119" width="26" height="230"/>
+                        <rect key="frame" x="226" y="90" width="26" height="230"/>
                         <animations/>
                         <sliderCell key="cell" continuous="YES" alignment="left" maxValue="1000" doubleValue="1" tickMarkPosition="right" numberOfTickMarks="20" sliderType="linear" id="5ZX-UD-mpf"/>
                         <connections>
                             <action selector="changeVolume:" target="39E-Lr-kbK" id="mzq-Nx-wuM"/>
                         </connections>
                     </slider>
+                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="YEg-7M-0I5">
+                        <rect key="frame" x="150" y="33" width="180" height="39"/>
+                        <animations/>
+                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" title="Label" id="Lts-fI-0nx">
+                            <font key="font" metaFont="system"/>
+                            <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                    </textField>
                 </subviews>
                 <animations/>
             </view>
